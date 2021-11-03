@@ -1,6 +1,6 @@
     
     <footer class="footer">
-        <p>&copy; 2021 Company, Inc.</p>
+        <p>&copy; 2021 Jean François Battú.</p>
       </footer>
 
     </div> <!-- /container -->
