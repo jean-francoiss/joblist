@@ -1,6 +1,6 @@
 <?php include 'inc/header.php'; ?>
       <div class="jumbotron">
-        <h1>Procurar Profissionais.</h1>
+        <h1>Procurar profissionais.</h1>
         <form method="GET" action="index.php">
           <select name="category" class="form-control">
               <option value="0">Escolha a categoria.</option>
@@ -13,7 +13,7 @@
             </form>
           </div>
           <h3>
-            <?= $title; ?>
+            <?php echo $title; ?>
           </h3>
           <?php foreach($jobs as $job): ?>
             <div class="row marketing">

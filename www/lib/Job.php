@@ -44,7 +44,7 @@
                 return $results;
         }
         //Get category
-        public function getCategory($category){
+        public function getCategory($category_id){
             $this->db->query("SELECT * FROM categories WHERE id = :category_id");
             $this->db->bind(':category_id', $category_id);
             // Assign Row
@@ -56,9 +56,9 @@
         public function getJob($id){
             $this->db->query("SELECT * FROM jobs WHERE id = :id");
             $this->db->bind(':id', $id);
+
             // Assign Row
-            $row = $this->db->single();
-            
+            $row = $this->db->single();    
 
             return $row;
 

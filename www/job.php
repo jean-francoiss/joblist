@@ -3,8 +3,6 @@
 <?php
 $job = new Job;
 
-// print_r($job->getAllJobs);
-// die;
 $template = new Template('templates/job-single.php');
 
 $job_id = isset($_GET['id']) ? $_GET['id'] : null;
